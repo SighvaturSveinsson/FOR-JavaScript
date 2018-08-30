@@ -8,17 +8,17 @@
 
 #### 4.
 ```javascript
-const square = function() {
+const funcName = function() {
   return "Return value";
 };
 ```
 ```javascript
-let variable = function() {
+let funcName = function() {
   return "Return value";
 };
 ```
 ```javascript
-const square1 = () => {  return "Return value" };
+const funcName = () => {  return "Return value" };
 ```
 #### 5. Kóðinn gerir alert glugga í browserinum sem segir 'Hello World'
 
