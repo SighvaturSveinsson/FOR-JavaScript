@@ -7,7 +7,7 @@
 #### 3.
 
 #### 4.
----javascript
+--- javascript
 const square = function() {
   return "Return value";
 };
