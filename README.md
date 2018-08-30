@@ -22,6 +22,8 @@ const square1 = () => {  return "Return value" };
 ```
 #### 5. Kóðinn gerir alert glugga í browserinum sem segir 'Hello World'
 
+#### 7. The for loop explicitly forces you to define the start point, stop point, and each step of the loop.
+
 #### 8. 
 ```javascript
 test.forEach(function(number, index){
