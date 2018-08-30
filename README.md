@@ -7,3 +7,12 @@
 #### 3.
 
 #### 4. 
+const square = function() {
+  return "Return value";
+};
+
+let variable = function() {
+  return "Return value";
+};
+
+const square1 = () => {  return "Return value" };
