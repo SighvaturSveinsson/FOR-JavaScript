@@ -42,3 +42,16 @@ var totals = bills.map(function(bill) {
 
 console.log(totals);
 ```
+#### 10. 
+```javascript
+for (var x = 0; x < numbers.length; x++) {
+    for (var y = 0; y < numbers[x].length; y++) {
+        if (numbers[x][y] % 2 === 0){
+            numbers[x][y] = "even";
+        }
+        else {
+            numbers[x][y] = "odd"
+        }
+    }
+}
+```
