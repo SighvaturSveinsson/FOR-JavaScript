@@ -30,3 +30,13 @@ test.forEach(function(number, index){
     }
 });
 ```
+#### 9. you can take an array, perform some operation on each element of the array, and return a new array
+```javascript
+var totals = bills.map(function(bill) {
+    bill += bill * 0.15;
+    bill = bill.toFixed( 2 );
+    return Number(bill);
+});
+
+console.log(totals);
+```
