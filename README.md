@@ -20,3 +20,13 @@ let variable = function() {
 ```javascript
 const square1 = () => {  return "Return value" };
 ```
+#### 5. Kóðinn gerir alert glugga í browserinum sem segir 'Hello World'
+
+#### 8. 
+```javascript
+test.forEach(function(number, index){
+    if(number % 3 === 0) {
+        test[index] = number += 100; 
+    }
+});
+```
