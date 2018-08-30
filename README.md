@@ -1,6 +1,7 @@
 # FOR-JavaScript
 ## Verkefni 1
-#### 1. 
+#### 1. null refers to the "value of nothing", while undefined refers to the "absence of value".
+What is NaN?
 
 #### 2.
 
