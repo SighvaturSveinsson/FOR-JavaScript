@@ -6,7 +6,8 @@
 
 #### 3.
 
-#### 4. 
+#### 4.
+---javascript
 const square = function() {
   return "Return value";
 };
@@ -16,3 +17,4 @@ let variable = function() {
 };
 
 const square1 = () => {  return "Return value" };
+---
