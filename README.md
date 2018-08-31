@@ -8,7 +8,7 @@
 
 #### 4.
 ```javascript
-const funcName = function() {
+ function funcName() {
   return "Return value";
 };
 ```
