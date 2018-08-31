@@ -4,7 +4,7 @@
 
 #### 2. Javascript er "loosely typed language" sem þýðir að þú þarft ekki að specify data types. Javascript breytir values sjálfkrafa í viðeigandi data type t.d ```"Hello" + 10``` skilar ```"Hello10"``` því javascript breytir 10 í streng og bætir honum við Hello. Þegar 'use strict' er notað þá þarf að specify data types.
 
-#### 3. let leyfir þér að declare-a breytu sem er "limited in scope to the block, statement, eða expression sem það er notað í".var define-ar breytu globally óháð block scope
+#### 3. let leyfir þér að declare-a breytu sem er "limited in scope to the block, statement, eða expression sem það er notað í". var define-ar breytu globally óháð block scope
 
 #### 4.
 ```javascript
@@ -22,7 +22,7 @@ const funcName = () => {  return "Return value" };
 ```
 #### 5. Kóðinn gerir alert window í browserinum sem segir 'Hello World'.
 
-#### 6. Kóðinn skilar 8 vegna þess að ```return bar()``` leitar að innstu breytuni sem heitir bar() og hættir svo eftir að hann finnur breytuna.
+#### 6. Kóðinn skilar 8 vegna þess að ```return bar()``` leitar að innsta fallinu sem heitir bar() og hættir svo eftir að hann finnur fallið.
 ```javascript
 /*2*/function foo(){
   function bar() {
@@ -35,9 +35,7 @@ const funcName = () => {  return "Return value" };
 }
 /*1*/ alert(foo()); 
 ```
-#### 7. Í for loopu þarft þú að hafa start point, stop point og end point. Ef eitthvað af þessu er ekki virkar loopan ekki. The for loop explicitly forces you to define the start point, stop point, and each step of the loop.
-The for ... in loop will iterate over inherited properties as well, as long as they are enumerable properties
-for..of is a method, introduced in ES2015, for iterating over "iterable collections". These are objects that have a [Symbol.iterator] property.
+#### 7. Í for loopu þarft þú að hafa start point, stop point og end point. Ef eitthvað af þessu vantar virkar loopan ekki. for-in iterates over the properties of an object. for-of iterates over the values in an iterable, like an array for example.
 
 #### 8. 
 ```javascript
