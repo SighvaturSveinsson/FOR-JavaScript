@@ -4,7 +4,7 @@
 
 #### 2. Javascript er "loosely typed language" sem þýðir að þú þarft ekki að specify data types. Javascript breytir values sjálfkrafa í viðeigandi data type t.d ```"Hello" + 10``` skilar ```"Hello10"``` því javascript breytir 10 í streng og bætir honum við Hello. Þegar 'use strict' er notað þá þarf að specify data types.
 
-#### 3. let leyfir þér að declare variable sem er limited in scope to the block, statement, eða expression sem það er notað í. en var definear breytu globally, or locally to an entire function regardless of block scope
+#### 3. let leyfir þér að declare-a breytu sem er "limited in scope to the block, statement, eða expression sem það er notað í".var define-ar breytu globally óháð block scope
 
 #### 4.
 ```javascript
@@ -22,7 +22,7 @@ const funcName = () => {  return "Return value" };
 ```
 #### 5. Kóðinn gerir alert window í browserinum sem segir 'Hello World'.
 
-#### 6. Kóðinn skilar 8 vegna þess að return bar() leitar að innstu breytuni sem heitir bar() og hættir svo eftir að hann finnur breytuna.
+#### 6. Kóðinn skilar 8 vegna þess að ```return bar()``` leitar að innstu breytuni sem heitir bar() og hættir svo eftir að hann finnur breytuna.
 ```javascript
 /*2*/function foo(){
   function bar() {
