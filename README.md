@@ -1,8 +1,8 @@
 # FOR-JavaScript
 ## Verkefni 1
-#### 1. Null er value sem er jafnt og ekkert en undefined er þegar það er ekkert value. null refers to the "value of nothing", while undefined refers to the "absence of value".
+#### 1. Null er value sem er = ekkert en undefined er þegar það er ekkert value. Oftast er þetta samt það sama.
 
-#### 2. Instead, in JavaScript it’s better to use strict equality to see if numbers, strings, or booleans, etc. are identical in type and value without doing the type conversion first
+#### 2. Javascript er "loosely typed language" sem þýðir að þú þarft ekki að specify data types. Javascript breytir values sjálfkrafa í viðeigandi data type t.d ```javascript"Hello" + 10``` skilar ```javascript"Hello10"``` því javascript breytir 10 í streng. Þegar 'use strict' er notað þá þarf að specify data types.
 
 #### 3. let leyfir þér að declare variable sem er limited in scope to the block, statement, eða expression sem það er notað í. en var defines a variable globally, or locally to an entire function regardless of block scope
 
