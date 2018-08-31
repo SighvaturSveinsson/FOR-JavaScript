@@ -22,6 +22,19 @@ const funcName = () => {  return "Return value" };
 ```
 #### 5. Kóðinn gerir alert window í browserinum sem segir 'Hello World'
 
+#### 6. Kóðinn skilar 8 vegna þess að hann leitar að innstu breytuni.
+```javascript
+function foo(){
+function bar() {
+return 3;
+}
+return bar();
+function bar() {
+return 8;
+}
+}
+alert(foo()); 
+```
 #### 7. The for loop explicitly forces you to define the start point, stop point, and each step of the loop.
 
 #### 8. 
