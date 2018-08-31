@@ -35,7 +35,9 @@ const funcName = () => {  return "Return value" };
 }
 /*1*/ alert(foo()); 
 ```
-#### 7. The for loop explicitly forces you to define the start point, stop point, and each step of the loop.
+#### 7. Í for loopu þarft þú að hafa start point, stop point og end point. Ef eitthvað af þessu er ekki virkar loopan ekki. The for loop explicitly forces you to define the start point, stop point, and each step of the loop.
+The for ... in loop will iterate over inherited properties as well, as long as they are enumerable properties
+for..of is a method, introduced in ES2015, for iterating over "iterable collections". These are objects that have a [Symbol.iterator] property.
 
 #### 8. 
 ```javascript
