@@ -36,7 +36,6 @@ const funcName = () => {  return "Return value" };
 /*1*/ alert(foo()); 
 ```
 #### 7. Í for loopu þarft þú að hafa start point, stop point og end point. Ef eitthvað af þessu vantar virkar loopan ekki. for-in iterates over the properties of an object. for-of iterates over the values in an iterable, like an array for example.
-
 #### 8. 
 ```javascript
 test.forEach(function(number, index){
@@ -67,4 +66,28 @@ for (var x = 0; x < numbers.length; x++) {
         }
     }
 }
+```
+## Verkefni 2
+#### 1.
+```javascript
+let eg = {
+ nafn: "Sighvatur",
+ heimasimi: 4209821,
+ gsm: 8561234
+};
+
+console.log(eg.gsm);
+```
+#### 2.
+```javascript
+console.log(family.parents.fathers[1].name);
+```
+
+#### 3.
+```javascript
+let breakfast = {
+ name: "The Lumberjack",
+ price: 9.95,
+ ingredients: ["eggs", "sausage", "toast", "hashbrowns", "pancakes"]
+};
 ```
