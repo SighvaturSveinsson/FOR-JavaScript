@@ -105,3 +105,12 @@ donuts.forEach(function(donut){
 });
 ```
 #### 6.
+```javascript
+function pizzaMaker(price, size, alegg) {   
+	this.price = price;
+	this.size = size;
+	this.alegg = alegg
+}
+
+pizza1 = new pizzaMaker(2160, "Medium", ["pepperoni", "sveppir"]);
+```
