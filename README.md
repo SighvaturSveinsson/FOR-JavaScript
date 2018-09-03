@@ -112,5 +112,6 @@ function pizzaMaker(price, size, alegg) {
 	this.alegg = alegg
 }
 
-pizza1 = new pizzaMaker(2160, "Medium", ["pepperoni", "sveppir"]);
+pizza1 = new pizzaMaker(3160, "Large", ["pepperoni", "sveppir"]);
+pizza2 = new pizzaMaker(2195, "Large", ["ostur", "oregano"]);
 ```
