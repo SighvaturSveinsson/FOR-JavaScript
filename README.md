@@ -101,15 +101,15 @@ printAccountSummary: function(){
 #### 5.
 ```javascript
 donuts.forEach(function(donut){
-    console.log(donut.type+" donuts cost $"+donut.cost+" each")
+ console.log(donut.type+" donuts cost $"+donut.cost+" each")
 });
 ```
 #### 6.
 ```javascript
 function pizzaMaker(price, size, alegg) {   
-	this.price = price;
-	this.size = size;
-	this.alegg = alegg
+ this.price = price;
+ this.size = size;
+ this.alegg = alegg
 }
 
 pizza1 = new pizzaMaker(3160, "Large", ["pepperoni", "sveppir"]);
