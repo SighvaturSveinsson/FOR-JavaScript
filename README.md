@@ -98,3 +98,10 @@ printAccountSummary: function(){
  +" and your interest rate is "+ this.interestRatePercent+"%."
 }
 ```
+#### 5.
+```javascript
+donuts.forEach(function(donut){
+    console.log(donut.type+" donuts cost $"+donut.cost+" each")
+});
+```
+#### 6.
