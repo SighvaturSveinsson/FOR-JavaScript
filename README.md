@@ -91,3 +91,10 @@ let breakfast = {
  ingredients: ["eggs", "sausage", "toast", "hashbrowns", "pancakes"]
 };
 ```
+#### 4.
+```javascript
+printAccountSummary: function(){
+ return "Welcome!\n"+"Your balance is currently $"+this.balance 
+ +" and your interest rate is "+ this.interestRatePercent+"%."
+}
+```
