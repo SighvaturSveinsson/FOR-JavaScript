@@ -106,7 +106,7 @@ donuts.forEach(function(donut){
 ```
 #### 6.
 ```javascript
-function PizzaMaker(price, size, alegg) {   
+function PizzaMaker(price = 2000, size = "Medium", alegg=[skinka]) {   
  this.price = price;
  this.size = size;
  this.alegg = alegg
