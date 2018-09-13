@@ -115,3 +115,22 @@ function PizzaMaker(price = 2000, size = "Medium", alegg=["skinka","pepperoni"])
 pizza1 = new PizzaMaker(2260, "Large", ["pepperoni", "sveppir"]);
 pizza2 = new PizzaMaker(2195, "Large", ["ostur", "oregano"]);
 ```
+### Verkefni 3
+```javascript
+function SpaceShipMaker(name = "Neurotoxin", life = 10, speed = 10) {   
+ this.name = name;
+	this.life = life;
+	this.speed = speed;
+	this.showName = function() {
+		console.log(" I'm a space ship and my name is "+ this.name);
+	};
+}
+
+SpaceShipMaker.prototype.fly = function(){
+	return this.speed += 1;
+};
+
+SpaceShipMaker.prototype.fly = function(){
+	return this.speed += 1;
+};
+```
