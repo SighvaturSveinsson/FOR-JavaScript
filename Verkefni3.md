@@ -32,7 +32,7 @@ geimskip2.life = 10;
 geimskip1.speed = 10;
 geimskip2.speed = 10;
 
-SpaceShipMaker.prototype.setLife = function(){
+spaceShip2.setLife = function(){
 	return this.life += 1;
 };
 ```
