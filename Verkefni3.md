@@ -1,5 +1,5 @@
 ### Verkefni 3 
-#### 1. Prototype gengur út á að gera ekki mikið af svipuðum objects heldur að endurnota frekar objects sem eru nú þegar til og bæta ofan á þá eða breyta þeim með því að erfa values og methods frá parent objecti. 
+#### 1. Prototype gengur út á að spara minni með því að gera ekki mikið af svipuðum objects heldur að endurnota frekar objects sem eru nú þegar til og bæta ofan á þá eða breyta þeim með því að erfa values og methods frá parent objecti. 
 #### 2. b Book.prototype.getIsbn lætur alla objects sem eru byggðir með Book constructorinum fá aðgang að fallinu getIsbn().
 #### 3. a
 ```javascript
