@@ -13,7 +13,7 @@ function SpaceShipMaker(name = "Neurotoxin", life = 10, speed = 10) {
 ```javascript
 spaceShip1 = new SpaceShipMaker("Priestess",10,10);
 spaceShip2 = new SpaceShipMaker("Tomahawk",10,12);
-spaceShip3 = new SpaceShipMaker("Intrepid",10,9);
+let spaceShip3 = new SpaceShipMaker("Intrepid",10,9);
 ```
 #### b
 
@@ -23,9 +23,6 @@ SpaceShipMaker.prototype.fly = function(){
 	return this.speed += 1;
 };
 ```
-spaceShip2.prototype.fly = function(){
-	return this.life += 1;
-};
 #### d
 ```javascript
 let geimskip1 = Object.create(spaceShip2);
@@ -39,3 +36,20 @@ SpaceShipMaker.prototype.setLife = function(){
 	return this.life += 1;
 };
 ```
+#### 4.
+```javascript
+class SpaceShipMaker {
+  constructor(name = "Neurotoxin", life = 10, speed = 10) {
+    this.name = name;
+    this.life = life;
+    this.speed = speed;
+}
+  
+let spaceShip1 = new SpaceShipMaker("Rhodes",10,11);
+let spaceShip2 = new SpaceShipMaker("Poseidon",10,12);
+let spaceShip3 = new SpaceShipMaker("Cyclopse",10,8);
+
+SpaceShipMaker.prototype.fly = function() {
+  return this.speed += 1;
+};
+ ```
