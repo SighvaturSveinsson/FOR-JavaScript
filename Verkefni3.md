@@ -58,4 +58,12 @@ spaceShip1.speed = 15;
 spaceShip2.speed = 8;
 spaceShip3.speed = 11;
 
+class Geimskip extends SpaceShipMaker {
+  constructor() {
+    super();
+  }
+  get setLife() {
+    return this.life += 1;
+  }
+}
  ```
