@@ -66,4 +66,11 @@ class Geimskip extends SpaceShipMaker {
     return this.life += 1;
   }
 }
+
+let geimskip1 = new Geimskip();
+let geimskip2 = new Geimskip();
+geimskip1.life = 10;
+geimskip2.life = 10;
+geimskip1.speed = 10;
+geimskip2.speed = 10;
  ```
