@@ -44,6 +44,10 @@ class SpaceShipMaker {
     this.name = name;
     this.life = life;
     this.speed = speed;
+  }
+  get fly() {
+    return this.speed += 1;
+  }
 }
   
 let spaceShip1 = new SpaceShipMaker("Rhodes");
@@ -54,7 +58,4 @@ spaceShip1.speed = 15;
 spaceShip2.speed = 8;
 spaceShip3.speed = 11;
 
-SpaceShipMaker.prototype.fly = function() {
-  return this.speed += 1;
-};
  ```
