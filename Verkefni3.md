@@ -8,15 +8,16 @@ function SpaceShipMaker(name = "Neurotoxin", life = 10, speed = 10) {
 	this.life = life;
 	this.speed = speed;
 }
+let spaceShip1 = new SpaceShipMaker("Priestess");
+let spaceShip2 = new SpaceShipMaker("Tomahawk";
+let spaceShip3 = new SpaceShipMaker("Intrepid");
 ```
 #### b
 ```javascript
-spaceShip1 = new SpaceShipMaker("Priestess",10,10);
-spaceShip2 = new SpaceShipMaker("Tomahawk",10,12);
-let spaceShip3 = new SpaceShipMaker("Intrepid",10,9);
+spaceShip1.speed = 12;
+spaceShip2.speed = 9;
+spaceShip3.speed = 13;
 ```
-#### b
-
 #### c
 ```javascript
 SpaceShipMaker.prototype.fly = function(){
