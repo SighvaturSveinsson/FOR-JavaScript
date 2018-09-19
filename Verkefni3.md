@@ -9,7 +9,7 @@ function SpaceShipMaker(name = "Neurotoxin", life = 10, speed = 10) {
 	this.speed = speed;
 }
 let spaceShip1 = new SpaceShipMaker("Priestess");
-let spaceShip2 = new SpaceShipMaker("Tomahawk";
+let spaceShip2 = new SpaceShipMaker("Tomahawk");
 let spaceShip3 = new SpaceShipMaker("Intrepid");
 ```
 #### b
@@ -28,6 +28,8 @@ SpaceShipMaker.prototype.fly = function(){
 ```javascript
 let geimskip1 = Object.create(spaceShip2);
 let geimskip2 = Object.create(spaceShip2);
+geimskip1.name = "SSE Unity";
+geimskip1.name = "SC Typhoon";
 geimskip1.life = 10;
 geimskip2.life = 10;
 geimskip1.speed = 10;
