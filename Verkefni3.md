@@ -67,10 +67,8 @@ class Geimskip extends SpaceShipMaker {
   }
 }
 
-let geimskip1 = new Geimskip("nafn",123,321);
+let geimskip1 = new Geimskip();
 let geimskip2 = new Geimskip();
-geimskip1.life = 10;
-geimskip2.life = 10;
-geimskip1.speed = 10;
-geimskip2.speed = 10;
+geimskip1.name = "STS Zephyr";
+geimskip2.name = "HMS Hellhound";
  ```
