@@ -30,10 +30,6 @@ let geimskip1 = Object.create(spaceShip2);
 let geimskip2 = Object.create(spaceShip2);
 geimskip1.name = "SSE Unity";
 geimskip1.name = "SC Typhoon";
-geimskip1.life = 10;
-geimskip2.life = 10;
-geimskip1.speed = 10;
-geimskip2.speed = 10;
 
 spaceShip2.setLife = function(){
 	return this.life += 1;
@@ -64,7 +60,7 @@ class Geimskip extends SpaceShipMaker {
   constructor() {
     super();
   }
-  get setLife() {
+  set Life() {
     return this.life += 1;
   }
 }
