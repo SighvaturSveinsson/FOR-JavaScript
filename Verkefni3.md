@@ -60,7 +60,7 @@ class Geimskip extends SpaceShipMaker {
   constructor() {
     super();
   }
-  set Life() {
+  setLife() {
     return this.life += 1;
   }
 }
