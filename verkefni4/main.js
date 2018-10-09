@@ -211,7 +211,7 @@ for(let i = 0; i < 11; i++) {
   random(0 + size,width - size),
   // Passar að fyrstu boltarnir geta ekki verið í sömu hæð og hvíti hringurinn
   // Boltar sem koma seinna geta komið í sömu hæð og hvíti hringurinn
-  random(0 + size,950),
+  random(0 + size,900),
   random(-2,2),
   random(-2,2),
   true,
