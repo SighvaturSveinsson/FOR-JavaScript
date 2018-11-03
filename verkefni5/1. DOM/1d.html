@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <div data-widget-name="menu">Choose the genre</div>
+
+  <script>
+    let elem = document.querySelector('[data-widget-name]');
+
+    // Öll attributes sem byrja á "data" eru frátekin fyrir notkun forritara. Það er hægt að nota þau með "dataset" property-inu. Multiword attributes verða camel-cased. "data-widget-name" verður þá "dataset.widgetName"
+    alert(elem.dataset.widgetName);
+  </script>
+</body>
+</html>
