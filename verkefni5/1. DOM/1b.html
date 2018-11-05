@@ -1,0 +1,19 @@
+// 1. The table with `id="age-table"`.
+let table = document.getElementById('age-table')
+
+// 2. All label elements inside that table
+table.getElementsByTagName('label')
+
+// 3. The first td in that table (with the word "Age").
+table.rows[0].cells[0]
+
+// 4. The form with the name "search".
+let form = document.getElementsByName('search')[0]
+
+// 5. The first input in that form.
+form.getElementsByTagName('input')[0]
+
+// 6. The last input in that form.
+// there's no direct query for that
+let inputs = form.querySelectorAll('input') // search all
+inputs[inputs.length-1] // take last
