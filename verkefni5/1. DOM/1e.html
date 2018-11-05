@@ -1,0 +1,14 @@
+<ol id="elem">
+  <li>Hello</li>
+  <li>World</li>
+</ol>
+
+<script>
+  	function clear(elem) {
+  		// fjarlægir firstChild í elementinu þangað til að það eru engin eftir
+  		while (elem.firstChild) {
+    		elem.firstChild.remove();
+  		}
+	}
+  clear(elem);
+</script>

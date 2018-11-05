@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+const pressed = [];
+const secretCode = 'wesbos';
+// Event listener fyrir að einhver sleppir takkanum sem þeir ýttu á
+window.addEventListener('keyup', (e) => {
+  console.log(e.key);
+  // Setur takkan sem var ýtt á í lista/array
+  pressed.push(e.key);
+  // Tekur fyrsta stafin úr listanum út og setur nýjan í staðinn ef listinn er lengri en secretCode
+  pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+  // Ef allir stafirnir í listanum settir saman eru sama og secret code
+  if (pressed.join('').includes(secretCode)) {
+    console.log('DING DING!');
+    // Bætir við einhveru á vefsíðuna til að sýna að þetta virkaði
+    cornify_add();
+  }
+  console.log(pressed);
+});
+</script>
+</body>
+</html>
